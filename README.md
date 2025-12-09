@@ -1,7 +1,6 @@
 # Adaptive Load Balancing in Java-Based Microservices Using Real-Time Metrics
 
 > This work is done as part of my CSCE 685 (Directed Studies) coursework under the supervision of Dr. Hank, Associate Dean for Graduate Programs, CSE Department, Texas A&M University. This project implements and evaluates an **adaptive load balancing mechanism** for Java-based microservices using **real-time performance metrics** like latency, queue length, and error rates.
-
 ---
 
 ## Table of Contents
