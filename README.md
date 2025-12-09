@@ -1,6 +1,6 @@
-# 🚀 Adaptive Load Balancing in Java-Based Microservices Using Real-Time Metrics
+# Adaptive Load Balancing in Java-Based Microservices Using Real-Time Metrics
 
-> A research-driven project to implement and evaluate an **adaptive load balancing mechanism** for Java-based microservices using **real-time performance metrics** like latency, queue length, and error rates.
+> This work is done as part of my CSCE 685 (Directed Studies) coursework under the supervision of Dr. Hank, Associate Dean for Graduate Programs, CSE Department, Texas A&M University. This project implements and evaluates an **adaptive load balancing mechanism** for Java-based microservices using **real-time performance metrics** like latency, queue length, and error rates.
 
 ---
 
@@ -34,7 +34,7 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. **Algorithm Development**  
    Create a real-time, adaptive load balancing algorithm using Java and Redis.
@@ -47,21 +47,21 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## ✅ Features
+## Features
 
-- 🔄 Adaptive routing logic based on real-time metrics
-- 📊 Prometheus integration with Micrometer for collecting:
+- Adaptive routing logic based on real-time metrics
+- Prometheus integration with Micrometer for collecting:
   - Latency
   - Queue length
   - Error counts
-- 🚀 Redis-based centralized metric cache for fast decision-making
-- 📈 Grafana dashboards for monitoring
-- 🐳 Docker-based multi-container deployment
-- 🔁 CRON/Auto scheduler to simulate ongoing development (optional)
+- Redis-based centralized metric cache for fast decision-making
+- Grafana dashboards for monitoring
+- Docker-based multi-container deployment
+- CRON/Auto scheduler to simulate ongoing development (optional)
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠Technology Stack
 
 | Component          | Technology           |
 |--------------------|----------------------|
@@ -76,7 +76,7 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## 🧠 System Design
+## System Design
 
 - **Gateway**: Spring Cloud Gateway with a **custom `GlobalFilter`** for intelligent routing
 - **Microservices**: RESTful services exposing their own metrics via `/actuator/prometheus`
@@ -86,12 +86,12 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## 🧰 Setup Instructions
+## Setup Instructions
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/adaptive-load-balancer.git
-   cd adaptive-load-balancer
+   git clone https://github.com/tamu-edu-students/adaptive-load_balancing.git
+   cd adaptive-load_balancing
    ```
 
 2. **Build the Project**
@@ -117,7 +117,7 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## 📊 Metrics & Monitoring
+## Metrics & Monitoring
 
 Prometheus scrapes metrics from:
 - Gateway
@@ -137,7 +137,7 @@ Grafana dashboards visualize:
 
 ---
 
-## 🧪 Benchmarking Strategy
+## Benchmarking Strategy
 
 To compare **adaptive vs. static load balancing**:
 - Simulate load using JMeter or Apache Bench
@@ -149,7 +149,7 @@ To compare **adaptive vs. static load balancing**:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 adaptive-load-balancer/
@@ -169,22 +169,22 @@ adaptive-load-balancer/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Vinayaka Hegde**  
-Graduate Researcher, CSCE 685  
-Email: `vinayaka@example.com`  
-GitHub: [@yourusername](https://github.com/yourusername)
+CSE Graduate Student
+Department of Computer Science, TAMU
+Email: `vinayakah@tamu.edu`  
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙋‍♂️ Contributions
+## Contributions
 
 Contributions, ideas, and suggestions are welcome!  
 Feel free to fork the repo, create a PR, or open an issue.
