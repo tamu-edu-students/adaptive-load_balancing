@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Objectives](#project-objectives)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 Traditional load balancing strategies like round-robin and least-connections do not consider real-time system behavior, often leading to service instance overloads and poor performance.
 
@@ -35,7 +35,6 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 ---
 
 ## Project Objectives
-
 1. **Algorithm Development**  
    Create a real-time, adaptive load balancing algorithm using Java and Redis.
 
