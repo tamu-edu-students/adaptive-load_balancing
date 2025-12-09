@@ -59,7 +59,7 @@ All services are containerized using Docker, monitored via Prometheus, and visua
 
 ---
 
-## 🛠Technology Stack
+## Technology Stack
 
 | Component          | Technology           |
 |--------------------|----------------------|
